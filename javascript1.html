@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Javascript</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="icon" type="text/css" href="images/Js.jpg">
+	<style type="text/css">
+		.var{
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<h1>Introduction to Javascript</h1>
+
+</body>
+<script type="text/javascript">
+	var b=27,c=3;
+	document.write("The a value is ",b,"<br>");
+	document.write(c+b+" ");
+	var name='sasi';
+	document.write("len="+name.length+"<br>");
+	document.write(name," ");
+	name+=' vardhan';
+	document.write("len="+name.length);
+	document.write("<br>",name,"<br>");
+	var n='reka';
+	n+=' ramya';
+	n+=',geetha';
+	document.write(n+"<br>");
+	var num;
+	document.write("type= ",typeof(num)," ");
+	var num=45.66;
+	document.write("type= ",typeof(num),"<br>");
+	var b=true;
+	document.write(typeof(b),"<br>");
+	var arr =['sasi',21,true];
+	// console.log(arr);
+	document.write(arr[0]+arr[1]+arr[2],"   ",typeof(arr),"<br>");
+	var arr1=[1,2,3,4];
+	// console.log(arr1);
+	document.write(arr1[1]," ",arr1[3],"<br>");
+	var trainee=[{
+		'name' : "sasi",
+		'rollno' : 1221,
+		'college' : 'ACET',
+		'branch' : 'IT',
+		'EMAIL'  : 'sasi@gmail.com'
+	},
+	{
+		'name' : "karthik",
+		'rollno' : 1256,
+		'college' : 'ACET',
+		'branch' : 'IT'
+	},
+	{
+		'name' : "surya",
+		'rollno' : 1256,
+		'college' : 'ACET',
+		'branch' : 'IT'
+	},
+	{
+		'name' : "chiru",
+		'rollno' : 'le1',
+		'college' : 'ACET',
+		'branch' : 'IT'
+	},
+	{
+		'name' : "kushal",
+		'rollno' : 1266,
+		'college' : 'ACET',
+		'branch' : 'IT'
+	}]
+	// console.log(Object.entries(trainee));
+	for(let i=0;i<trainee.length;i++){
+		// document.write(trainee[i].name," ",trainee[i].rollno," ",trainee[i].college,"\n");
+		for (var key in trainee[i]) {
+				document.write(trainee[i][key]+" ");
+			}
+			document.write("<br>");
+	}
+</script>
+</html> 

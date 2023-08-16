@@ -1,0 +1,53 @@
+.b{
+	background-color: whitesmoke;
+}
+.c{
+	margin-top: 50px;
+}
+.r1,.r2{
+	background-color: white;
+	padding: 5px;
+}
+.d2r2{
+	width: 5px;
+	padding-top: 2px;
+}
+.d1{
+	float: left;
+}
+.d2{
+	text-align: center;
+}
+.d3{
+	float: right;
+}
+.s1{
+	float: left;
+}
+.s2{
+	text-align: center;
+}
+.s3{
+	border: 1px solid black;
+	border-radius: 5px;
+	float: right;
+}
+.s4{
+	float: right;
+	font-size: 10px;
+	margin-right: 20px;
+}
+.i1{
+	color: green;
+	bottom: 5px;z
+}
+.i2{
+	float: right;
+}
+.img1{
+	height: 20px;
+	width: 20px;
+	display: inline;
+	border-radius: 10px;
+	float: right;
+}
